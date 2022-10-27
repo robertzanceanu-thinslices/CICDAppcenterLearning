@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View, Button } from "react-native";
+import { StyleSheet, Text, View, Button, Alert } from "react-native";
 import Crashes from "appcenter-crashes";
 import Analytics from "appcenter-analytics";
 
@@ -18,6 +18,14 @@ export default function App() {
         title="New button! Press it to track event!"
         onPress={() => {
           Analytics.trackEvent("Event tracked");
+        }}
+      />
+      <Button
+        title="New button! Feature!"
+        onPress={() => {
+          Analytics.trackEvent("Feature button pressed!");
+
+          Alert.alert("Hello!");
         }}
       />
       <StatusBar style="auto" />
