@@ -239,7 +239,7 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
-        debug {
+        release {
             storeFile file('release.keystore')
             storePassword '123456'
             keyAlias 'CICDtutorial'
