@@ -38,6 +38,17 @@
                ReferencedContainer = "container:CICDAppcenterLearningApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "02770160290946C100291D4D"
+               BuildableName = "CICDAppcenterLearningAppUITests.xctest"
+               BlueprintName = "CICDAppcenterLearningAppUITests"
+               ReferencedContainer = "container:CICDAppcenterLearningApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
